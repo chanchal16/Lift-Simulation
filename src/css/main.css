@@ -1,0 +1,29 @@
+.form-container{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1rem;
+    gap: 0.7rem;
+}
+.form-container button{
+    width: fit-content;
+    margin: auto;
+}
+form{
+    display: grid;
+    grid-template-columns: 3rem 10rem;
+    justify-content: center;
+    gap: 0.5rem;
+}
+/* lift ui */
+.outer-div{
+    margin: 3rem 2rem;    
+}
+.floor-div{
+    padding: 2rem;
+    height: 5rem;
+    margin: 1rem 0;
+    background-color: oldlace;
+    border-bottom: 2px solid rgb(12, 12, 12);
+}
